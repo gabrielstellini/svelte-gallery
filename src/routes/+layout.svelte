@@ -3,7 +3,11 @@
 	import '../app.postcss';
 </script>
 
-<a href='/tailiwnd'>Tailwind, postcss and scss demo</a>
-<a href='/daisy-ui'>Daisy UI demo</a>
+<div class='flex space-x-4'>
+	<a href='/tailiwnd' class="link">Tailwind, postcss and scss demo</a>
+	<a href='/daisy-ui' class="link">Daisy UI demo</a>
+</div>
 
-<slot />
+<div>
+	<slot />
+</div>
